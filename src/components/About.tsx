@@ -9,7 +9,7 @@ const values = [
   {
     icon: Heart,
     title: 'Paixão',
-    description: 'Amamos o que fazemos e isso reflecte-se nos resultados.'
+    description: 'Amamos o que fazemos e isso reflecte-se nos resultados. '
   },
   {
     icon: Zap,
