@@ -28,13 +28,7 @@ export default function About() {
               Sobre a <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Monaco</span>
             </h2>
             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-              Fundada com a missão de democratizar o acesso a serviços de marketing digital de qualidade premium, a Monaco nasceu da visão de transformar negócios através da tecnologia e criatividade.
-            </p>
-            <p className="text-gray-300 text-lg mb-6 leading-relaxed">
               Somos uma agência que combina estratégia, design e tecnologia para criar experiências digitais memoráveis. Cada projecto é tratado com dedicação exclusiva, garantindo que a sua marca se destaque num mercado cada vez mais competitivo.
-            </p>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              Com uma equipa multidisciplinar de especialistas apaixonados por resultados, já ajudámos mais de 150 empresas a alcançarem o sucesso digital e a superarem as suas metas de crescimento.
             </p>
           </div>
 
@@ -87,33 +81,6 @@ export default function About() {
                 </div>
               );
             })}
-          </div>
-        </div>
-
-        <div className="mt-16 bg-gradient-to-r from-purple-950/50 to-black border border-purple-900/30 rounded-2xl p-8">
-          <div className="flex items-center gap-4 mb-6">
-            <Users className="w-12 h-12 text-purple-400" />
-            <div>
-              <h3 className="text-2xl font-bold text-white">O Que Nos Diferencia</h3>
-            </div>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6 text-gray-300">
-            <div className="flex gap-3">
-              <div className="text-purple-400 font-bold">•</div>
-              <p>Atendimento personalizado com gestor de conta dedicado</p>
-            </div>
-            <div className="flex gap-3">
-              <div className="text-purple-400 font-bold">•</div>
-              <p>Resultados mensuráveis e relatórios transparentes</p>
-            </div>
-            <div className="flex gap-3">
-              <div className="text-purple-400 font-bold">•</div>
-              <p>Metodologia ágil e entregas no prazo estabelecido</p>
-            </div>
-            <div className="flex gap-3">
-              <div className="text-purple-400 font-bold">•</div>
-              <p>Suporte contínuo e acompanhamento pós-projecto</p>
-            </div>
           </div>
         </div>
       </div>
