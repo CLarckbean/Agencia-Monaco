@@ -104,15 +104,6 @@ export default function Portfolio() {
                   <TrendingUp className="w-5 h-5 text-green-500" />
                   <span className="text-green-500 font-semibold">{item.results}</span>
                 </div>
-
-                <div className="space-y-2">
-                  {item.metrics.map((metric, idx) => (
-                    <div key={idx} className="flex items-center gap-2 text-sm text-gray-400">
-                      <Star className="w-4 h-4 text-purple-400" />
-                      {metric}
-                    </div>
-                  ))}
-                </div>
               </div>
             </a>
           ))}
