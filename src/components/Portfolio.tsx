@@ -32,29 +32,7 @@ const portfolioItems = [
 ];
 
 
-const beforeAfter = [
-  {
-    title: 'SEO - Tráfego Orgânico',
-    before: '1,200',
-    after: '15,800',
-    metric: 'visitas/mês',
-    growth: '+1,217%'
-  },
-  {
-    title: 'Google Local - Avaliações',
-    before: '8 reviews',
-    after: '150 reviews',
-    metric: '4.9 estrelas',
-    growth: '+1,775%'
-  },
-  {
-    title: 'Redes Sociais - Engajamento',
-    before: '0.8%',
-    after: '8.5%',
-    metric: 'taxa de engajamento',
-    growth: '+962%'
-  }
-];
+
 
 export default function Portfolio() {
   return (
@@ -109,38 +87,7 @@ export default function Portfolio() {
           ))}
         </div>
 
-        <div className="bg-gradient-to-br from-purple-950/50 to-black border border-purple-900/30 rounded-3xl p-12">
-          <h3 className="text-3xl font-bold text-white text-center mb-12">
-            Resultados <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Antes & Depois</span>
-          </h3>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {beforeAfter.map((item, index) => (
-              <div key={index} className="text-center">
-                <h4 className="text-lg font-semibold text-white mb-6">{item.title}</h4>
-
-                <div className="flex items-center justify-center gap-8 mb-4">
-                  <div>
-                    <div className="text-gray-500 text-sm mb-2">Antes</div>
-                    <div className="text-2xl font-bold text-gray-400">{item.before}</div>
-                  </div>
-
-                  <div className="text-3xl text-purple-500">→</div>
-
-                  <div>
-                    <div className="text-gray-500 text-sm mb-2">Depois</div>
-                    <div className="text-2xl font-bold text-white">{item.after}</div>
-                  </div>
-                </div>
-
-                <div className="text-sm text-gray-400 mb-2">{item.metric}</div>
-                <div className="inline-block bg-green-500/20 text-green-500 px-4 py-1 rounded-full text-sm font-semibold">
-                  {item.growth}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+    
       </div>
     </section>
   );
