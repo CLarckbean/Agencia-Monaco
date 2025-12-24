@@ -55,20 +55,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-sm text-gray-400 mb-1">Telefone</div>
-                    <a href="tel:+244923456789" className="text-white hover:text-purple-400 transition-colors">
-                      +244 923 456 789
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-gradient-to-r from-purple-600 to-purple-800 rounded-xl">
-                    <Mail className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-gray-400 mb-1">Email</div>
-                    <a href="mailto:contacto@monaco.ao" className="text-white hover:text-purple-400 transition-colors">
-                      contacto@monaco.ao
+                    <a href="tel:+244954008117" className="text-white hover:text-purple-400 transition-colors">
+                      +244 954 008 117
                     </a>
                   </div>
                 </div>

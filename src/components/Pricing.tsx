@@ -3,7 +3,7 @@ import { Check, Star, Zap } from 'lucide-react';
 const plans = [
   {
     name: 'Básico',
-    price: '250.000',
+    price: '45.000',
     period: 'Kwanzas/mês',
     description: 'Ideal para pequenas empresas que estão a começar',
     features: [
@@ -19,7 +19,7 @@ const plans = [
   },
   {
     name: 'Intermédio',
-    price: '500.000',
+    price: '75.000',
     period: 'Kwanzas/mês',
     description: 'Para empresas em crescimento que querem resultados',
     features: [
@@ -38,7 +38,7 @@ const plans = [
   },
   {
     name: 'Premium',
-    price: '850.000',
+    price: '250.000',
     period: 'Kwanzas/mês',
     description: 'Solução completa para empresas que querem dominar',
     features: [
