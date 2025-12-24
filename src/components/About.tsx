@@ -63,26 +63,6 @@ export default function About() {
             </p>
           </div>
         </div>
-
-        <div>
-          <h3 className="text-3xl font-bold text-white text-center mb-12">
-            Nossos <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">Valores</span>
-          </h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            {values.map((value, index) => {
-              const Icon = value.icon;
-              return (
-                <div key={index} className="text-center group">
-                  <div className="inline-flex p-4 bg-gradient-to-r from-purple-600 to-purple-800 rounded-2xl mb-4 group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all">
-                    <Icon className="w-10 h-10 text-white" />
-                  </div>
-                  <h4 className="text-xl font-bold text-white mb-3">{value.title}</h4>
-                  <p className="text-gray-400">{value.description}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
       </div>
     </section>
   );
