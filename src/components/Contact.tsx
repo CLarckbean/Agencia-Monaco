@@ -13,13 +13,21 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({ name: '', email: '', phone: '', service: '', message: '' });
-    }, 3000);
-  };
+  e.preventDefault();
+
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+    `Olá Monaco! Gostaria de saber mais sobre os vossos serviços.\n\nNome: ${formData.name}\nEmail: ${formData.email}\nTelefone: ${formData.phone}\nServiço: ${formData.service}\nMensagem: ${formData.message}`
+  )}`;
+
+  window.open(whatsappLink, "_blank"); // abre o WhatsApp
+  setSubmitted(true);
+
+  setTimeout(() => {
+    setSubmitted(false);
+    setFormData({ name: '', email: '', phone: '', service: '', message: '' });
+  }, 3000);
+};
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
