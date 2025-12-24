@@ -7,12 +7,7 @@ const services = [
     description: 'Sites modernos, responsivos e optimizados para converter visitantes em clientes.',
     gradient: 'from-purple-600 to-purple-800'
   },
-  {
-    icon: Search,
-    title: 'SEO',
-    description: 'Posicione o seu negócio no topo do Google e atraia mais clientes qualificados.',
-    gradient: 'from-purple-700 to-purple-900'
-  },
+
   {
     icon: MapPin,
     title: 'Localização no Google',
@@ -24,12 +19,6 @@ const services = [
     title: 'Gestão de Redes Sociais',
     description: 'Conteúdos criativos que engajam e convertem seguidores em clientes fiéis.',
     gradient: 'from-purple-600 to-purple-800'
-  },
-  {
-    icon: Lightbulb,
-    title: 'Consultoria Digital',
-    description: 'Estratégias personalizadas para maximizar a sua presença online e resultados.',
-    gradient: 'from-purple-700 to-purple-900'
   }
 ];
 
