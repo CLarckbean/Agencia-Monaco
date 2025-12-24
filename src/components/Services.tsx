@@ -10,6 +10,29 @@ const services = [
       'Velocidade optimizada e SEO integrado',
       'Painel administrativo intuitivo',
       'Segurança e backups automáticos'
+    ],
+    process: [
+      'Análise de necessidades e objectivos',
+      'Design e prototipagem personalizada',
+      'Desenvolvimento e testes rigorosos',
+      'Lançamento e treinamento da equipa'
+    ]
+  },
+  {
+    icon: Search,
+    title: 'SEO - Optimização para Motores de Busca',
+    description: 'Posicione o seu site no topo do Google e atraia tráfego qualificado de forma orgânica.',
+    benefits: [
+      'Pesquisa profunda de palavras-chave',
+      'Optimização técnica e de conteúdo',
+      'Link building estratégico',
+      'Relatórios mensais de desempenho'
+    ],
+    process: [
+      'Auditoria completa do site actual',
+      'Estratégia personalizada de SEO',
+      'Implementação e optimização',
+      'Monitoramento e ajustes contínuos'
     ]
   },
   {
@@ -21,6 +44,12 @@ const services = [
       'Gestão de avaliações e reputação',
       'Publicações regulares e actualizações',
       'Relatórios de visibilidade local'
+    ],
+    process: [
+      'Configuração e optimização do perfil',
+      'Estratégia de conteúdo local',
+      'Gestão de interacções e reviews',
+      'Análise e optimização contínua'
     ]
   },
   {
@@ -32,6 +61,29 @@ const services = [
       'Design gráfico profissional',
       'Copywriting persuasivo',
       'Análise de métricas e performance'
+    ],
+    process: [
+      'Estudo do público-alvo e concorrência',
+      'Criação de estratégia de conteúdo',
+      'Produção e agendamento de posts',
+      'Monitoramento e engagement'
+    ]
+  },
+  {
+    icon: Lightbulb,
+    title: 'Consultoria de Presença Digital',
+    description: 'Orientação estratégica para maximizar o retorno dos seus investimentos em marketing digital.',
+    benefits: [
+      'Diagnóstico completo da presença actual',
+      'Plano estratégico personalizado',
+      'Identificação de oportunidades',
+      'Acompanhamento e mentoria'
+    ],
+    process: [
+      'Análise aprofundada do negócio',
+      'Desenvolvimento de estratégia',
+      'Implementação assistida',
+      'Revisões e ajustes estratégicos'
     ]
   }
 ];
@@ -93,21 +145,7 @@ export default function Services() {
                     </button>
                   </div>
 
-                  <div className="bg-black/50 rounded-2xl p-8 border border-purple-900/20">
-                    <h4 className="text-xl font-semibold text-white mb-6">Processo de Trabalho</h4>
-                    <div className="space-y-6">
-                      {service.process.map((step, idx) => (
-                        <div key={idx} className="flex gap-4">
-                          <div className="flex-shrink-0 w-10 h-10 bg-gradient-to-r from-purple-600 to-purple-800 rounded-full flex items-center justify-center font-bold text-white">
-                            {idx + 1}
-                          </div>
-                          <div className="flex-1 pt-2">
-                            <p className="text-gray-300">{step}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             );
