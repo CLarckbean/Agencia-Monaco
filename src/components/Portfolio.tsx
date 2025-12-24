@@ -2,54 +2,35 @@ import { ExternalLink, TrendingUp, Star } from 'lucide-react';
 
 const portfolioItems = [
   {
-    title: 'E-commerce FashionHub',
-    category: 'Criação de Site',
-    image: 'https://images.pexels.com/photos/6476587/pexels-photo-6476587.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Loja online completa com sistema de pagamentos e gestão de stock',
-    results: '+320% vendas online',
-    metrics: ['Velocidade: 95/100', 'Conversão: 4.2%']
+    title: 'Site para Padaria',
+    category: 'Website Profissional',
+    image: 'https://images.pexels.com/photos/209206/pexels-photo-209206.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    description: 'Site moderno para padarias, com cardápio, localização e contacto.',
+    link: 'https://exemplopadaria.com'
   },
   {
-    title: 'Restaurante Sabor & Arte',
-    category: 'SEO + Google Local',
+    title: 'Site para Restaurante',
+    category: 'Website Profissional',
     image: 'https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Optimização local e posicionamento no Google Maps',
-    results: '+180% reservas',
-    metrics: ['Top 3 Google Maps', '5 estrelas (150 reviews)']
+    description: 'Website elegante para restaurantes com menu online e reservas.',
+    link: 'https://exemplorestaurante.com'
   },
   {
-    title: 'TechStart Angola',
-    category: 'Branding Digital Completo',
-    image: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Website, SEO e gestão de redes sociais',
-    results: '+250% tráfego',
-    metrics: ['15K seguidores', 'Engajamento: 8.5%']
+    title: 'Site para Oficina Mecânica',
+    category: 'Website Profissional',
+    image: 'https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    description: 'Site para oficinas mecânicas com serviços, contactos e WhatsApp.',
+    link: 'https://exemplooficinamecanica.com'
   },
   {
-    title: 'Clínica VidaSaúde',
-    category: 'Website + Google Ads',
+    title: 'Site para Clínica',
+    category: 'Website Profissional',
     image: 'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Portal de agendamentos online e campanhas digitais',
-    results: '+400% agendamentos',
-    metrics: ['ROI: 550%', 'Custo por lead: -65%']
-  },
-  {
-    title: 'Academia FitPro',
-    category: 'Redes Sociais',
-    image: 'https://images.pexels.com/photos/416809/pexels-photo-416809.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Estratégia de conteúdo e crescimento orgânico',
-    results: '+500% seguidores',
-    metrics: ['25K Instagram', 'Engajamento: 12%']
-  },
-  {
-    title: 'Imobiliária Premium',
-    category: 'SEO + Consultoria',
-    image: 'https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    description: 'Posicionamento orgânico e estratégia digital',
-    results: '+280% leads',
-    metrics: ['Posição #1 (15 palavras)', 'Tráfego: 45K/mês']
+    description: 'Site institucional para clínicas com agendamento e informações.',
+    link: 'https://exemploclinicaodontologica.com'
   }
 ];
+
 
 const beforeAfter = [
   {
@@ -90,10 +71,14 @@ export default function Portfolio() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {portfolioItems.map((item, index) => (
-            <div
+            <a
               key={index}
-              className="group bg-gradient-to-br from-purple-950/30 to-black border border-purple-900/30 rounded-2xl overflow-hidden hover:border-purple-600/50 transition-all hover:transform hover:scale-105"
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block bg-gradient-to-br from-purple-950/30 to-black border border-purple-900/30 rounded-2xl overflow-hidden hover:border-purple-600/50 transition-all hover:transform hover:scale-105"
             >
+
               <div className="relative overflow-hidden h-48">
                 <img
                   src={item.image}
@@ -129,7 +114,7 @@ export default function Portfolio() {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
