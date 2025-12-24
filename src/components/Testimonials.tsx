@@ -3,23 +3,23 @@ import { Star, Quote } from 'lucide-react';
 const testimonials = [
   {
     name: 'Ana Silva',
-    role: 'CEO, TechStart Angola',
-    image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400',
-    content: 'A Monaco transformou completamente a nossa presença digital. Em apenas 3 meses, aumentámos as nossas vendas online em 250%. Profissionais excepcionais!',
+    role: 'CEO, Oku Kaya Angola',
+    image: '/okukaya.png',
+    content: 'Recebi O site da minha empresa em menos de 72h, Oque trouxe um aumento na credibilidade e nas vendas',
     rating: 5
   },
   {
-    name: 'Carlos Mendes',
-    role: 'Proprietário, Restaurante Sabor & Arte',
-    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-    content: 'Graças à optimização local no Google, o nosso restaurante nunca esteve tão cheio. As reservas aumentaram 180% e somos agora uma referência em Luanda.',
+    name: 'Sebastião Mendes',
+    role: 'Proprietário, Hamburgaria Sabor & Arte',
+    image: 'https://scontent.flad1-2.fna.fbcdn.net/v/t39.30808-1/558780375_3722507307885584_8064643322230293120_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_ohc=ImYw9Lti8dIQ7kNvwFUpp54&_nc_oc=AdkSQjbsgs_ReH0EqH53j7OJ2nsRShv8YrpdJt0ZGCZjA-X7DLTMZN-fMFTBtD7k34I&_nc_zt=24&_nc_ht=scontent.flad1-2.fna&_nc_gid=K1qpcPM__AfgGT5GkRbAiQ&oh=00_AfmmyxbQ1zeqebCVeQ6xa77IoPt7_-dhVnOinSWn7i28fA&oe=69518A5F',
+    content: 'Ótimo Serviço de criação de Identidade Visual, transformou por completo a imagem da minha Hamburgaria.',
     rating: 5
   },
   {
     name: 'Mariana Costa',
-    role: 'Directora de Marketing, FashionHub',
-    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
-    content: 'A gestão de redes sociais da Monaco é impecável. O nosso engajamento triplicou e finalmente conseguimos construir uma comunidade fiel à nossa marca.',
+    role: 'Decoradora, Pretty festas',
+    image: 'https://scontent.flad1-2.fna.fbcdn.net/v/t39.30808-6/462239047_122105584472551414_848526382478039416_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=KVVRFiS4d1sQ7kNvwGXBPZ2&_nc_oc=Adm-JVHcMx1JfzsWMO_TEyMcX99IdTb-3lsl7kOtgQF2zftRbAunkMKn8JsMabY2GsQ&_nc_zt=23&_nc_ht=scontent.flad1-2.fna&_nc_gid=iI6GpYQ7x21tnHr7-DCwsA&oh=00_Afk5I5gG03m1jWAd98Dc_rWFg1fHLUr0Heg73gpX2Cyu9g&oe=6951A89D',
+    content: 'Recomendo a Monaco para quem procura o serviço de localização. A equipa agiu de maneira rápida e edicaz.',
     rating: 5
   }
 ];
