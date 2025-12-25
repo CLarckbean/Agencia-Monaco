@@ -36,7 +36,7 @@ export default function Contact() {
     });
   };
 
-  const whatsappNumber = '244923456789';
+  const whatsappNumber = '244954008117';
   const whatsappMessage = encodeURIComponent('Olá Monaco! Gostaria de saber mais sobre os vossos serviços.');
 
   return (

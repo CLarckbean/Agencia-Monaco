@@ -152,14 +152,8 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-gray-400">
                 <Phone className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <a href="tel:+244923456789" className="hover:text-purple-400 transition-colors">
-                  +244 923 456 789
-                </a>
-              </li>
-              <li className="flex items-start gap-2 text-gray-400">
-                <Mail className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                <a href="mailto:contacto@monaco.ao" className="hover:text-purple-400 transition-colors">
-                  contacto@monaco.ao
+                <a href="tel:+244954008117" className="hover:text-purple-400 transition-colors">
+                  +244 954 008 117
                 </a>
               </li>
             </ul>
