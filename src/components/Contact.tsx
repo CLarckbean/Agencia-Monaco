@@ -92,16 +92,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-            <a
-              href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 w-full bg-green-600 hover:bg-green-700 text-white py-4 rounded-full font-semibold transition-all shadow-lg shadow-green-500/30"
-            >
-              <MessageCircle className="w-6 h-6" />
-              Falar no WhatsApp
-            </a>
           </div>
 
           <div className="bg-gradient-to-br from-purple-950/50 to-black border border-purple-900/30 rounded-3xl p-8">

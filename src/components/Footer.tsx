@@ -146,7 +146,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
           <div>
             <h4 className="text-white font-semibold mb-4">Contactos</h4>
             <ul className="space-y-3">
