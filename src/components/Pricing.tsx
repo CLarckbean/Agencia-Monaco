@@ -4,55 +4,46 @@ const plans = [
   {
     name: 'Básico',
     price: '45.000',
-    period: 'Kwanzas/mês',
-    description: 'Ideal para pequenas empresas que estão a começar',
+    period: 'Kwanzas',
+    description: 'Landing page simples para marcar presença online',
     features: [
-      'Website de 5 páginas',
-      'Design responsivo',
-      'SEO básico',
-      'Google Meu Negócio (configuração)',
-      '4 posts em redes sociais/mês',
-      'Suporte por email',
-      'Relatório mensal'
+      'Landing page (1 página)',
+      'Design simples e responsivo',
+      'Botão de WhatsApp',
+      'Formulário de contacto',
+      'Carregamento rápido'
     ],
     highlighted: false
   },
   {
-    name: 'Intermédio',
+    name: 'Profissional',
     price: '75.000',
-    period: 'Kwanzas/mês',
-    description: 'Para empresas em crescimento que querem resultados',
+    period: 'Kwanzas',
+    description: 'Ideal para negócios que querem mais visibilidade',
     features: [
-      'Website até 10 páginas',
-      'Design premium personalizado',
-      'SEO avançado',
-      'Google Meu Negócio (gestão completa)',
-      '12 posts em redes sociais/mês',
-      'Gestão de 2 plataformas sociais',
-      'Consultoria mensal (2h)',
-      'Suporte prioritário',
-      'Relatórios detalhados'
+      'Website de 3 a 4 páginas',
+      'Design profissional responsivo',
+      'SEO básico',
+      'Google Meu Negócio profissional',
+      'Botão de WhatsApp',
+      'Formulário de contacto'
     ],
     highlighted: true,
     badge: 'Mais Popular'
   },
   {
     name: 'Premium',
-    price: '250.000',
-    period: 'Kwanzas/mês',
-    description: 'Solução completa para empresas que querem dominar',
+    price: '150.000',
+    period: 'Kwanzas',
+    description: 'Para empresas que querem autoridade online',
     features: [
-      'Website ilimitado + E-commerce',
-      'Design exclusivo e luxuoso',
-      'SEO premium + Link Building',
-      'Google Meu Negócio (optimização contínua)',
-      '20 posts em redes sociais/mês',
-      'Gestão de todas as plataformas',
-      'Campanhas publicitárias (Google/Meta)',
-      'Consultoria semanal (4h/mês)',
-      'Gestor de conta dedicado',
-      'Suporte 24/7',
-      'Relatórios em tempo real'
+      'Website até 10 páginas',
+      'Design premium personalizado',
+      'SEO avançado',
+      'Google Meu Negócio completo',
+      'Integração com redes sociais',
+      'Formulários avançados',
+      'Outras regalias conforme o projecto'
     ],
     highlighted: false,
     badge: 'Melhor Valor'
