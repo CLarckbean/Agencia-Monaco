@@ -1,4 +1,4 @@
-import { Globe, Search, MapPin, Share2, Lightbulb, CheckCircle, ArrowRight } from 'lucide-react';
+import { Globe, Search, MapPin, Share2, Lightbulb, CheckCircle, ArrowRight, Palette } from 'lucide-react';
 
 const services = [
   {
@@ -36,20 +36,20 @@ const services = [
     ]
   },
   {
-    icon: MapPin,
-    title: 'Localização no Google',
-    description: 'Destaque-se nas pesquisas locais e seja facilmente encontrado pelos clientes da sua região.',
+    icon: Palette,
+    title: 'Design e Identidade Visual',
+    description: 'Crie uma imagem profissional e consistente que transmite confiança e valor ao seu negócio.',
     benefits: [
-      'Perfil Google Meu Negócio optimizado',
-      'Gestão de avaliações e reputação',
-      'Publicações regulares e actualizações',
-      'Relatórios de visibilidade local'
+      'Identidade visual alinhada à marca',
+      'Design moderno e profissional',
+      'Padronização de cores e tipografia',
+      'Maior credibilidade no mercado'
     ],
     process: [
-      'Configuração e optimização do perfil',
-      'Estratégia de conteúdo local',
-      'Gestão de interacções e reviews',
-      'Análise e optimização contínua'
+      'Análise da marca e do público',
+      'Definição de cores e tipografia',
+      'Criação dos elementos visuais',
+      'Ajustes finais e entrega'
     ]
   },
   {
